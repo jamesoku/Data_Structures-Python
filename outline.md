@@ -4,7 +4,7 @@
 * Contact Information
 ## II. Stacks
 * To be decided
-## III. Arrays
+## III. Sets
 * To be decided
-## IV. Sets
+## IV. Trees
 * To be decided
