@@ -3,8 +3,17 @@
 * Introduction
 * Contact Information
 ## II. Stacks
-* To be decided
+* Intro to Stacks(LIFO/FIFO)
+* Stack Functions and time complexity
+* Implementation
+* Conlclusion
 ## III. Sets
-* To be decided
+* Intro to sets
+* Stack Functions and time complexity
+* Implementation
+* Conlclusion
 ## IV. Trees
-* To be decided
+* Intro to Trees
+* Traverse a Binary Tree in Python
+* Implement a Tree Using a Python Library
+* Conlclusion
