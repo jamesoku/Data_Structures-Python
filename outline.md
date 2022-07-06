@@ -2,7 +2,7 @@
 ## I. Welcome
 * Introduction
 * Contact Information
-## II. [Stacks](1-stacks.md)
+## II. [Stacks](1-Stacks.md)
 * Intro to Stacks(LIFO/FIFO)
 * Stack Functions and time complexity
 * Implementation
