@@ -1,32 +1,15 @@
-from queue import LifoQueue
+# Initializing a set
+my_set = {}
+print(my_set)
 
-team = LifoQueue(maxsize=3)
-print(team)
+my_set = set()
+print(my_set)
 
-# qsize() show the number of elements
-# in the stack
-print(team.qsize())
+# Different types of sets in Python
+# set of integers
+my_set = {1, 2, 3}
+print(my_set)
 
-# put() function to push
-# element in the stack
-print('\nPlayers appended to team:')
-
-team.put('messi')
-team.put('ronaldo')
-team.put('neymar')
-    
-print("Full: ", team.full())
-print("Size: ", team.qsize())
-
-    # pop() function to pop
-    # element from stack in
-    # LIFO order. Removing the last two players from the list.
-    # get() function to pop
-# element from stack in
-# LIFO order
-print('\nElements popped from the stack')
-print(team.get())
-print(team.get())
-print(team.get())
- 
-print("\nEmpty: ", team.empty())
+# set of mixed datatypes
+my_set = {1.0, "Hello", (1, 2, 3)}
+print(my_set)
