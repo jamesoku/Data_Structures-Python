@@ -7,7 +7,7 @@
 * Stack Functions and time complexity
 * Implementation
 * Conlclusion
-## III. Sets
+## III. [Sets](2-Sets.md)
 * Intro to sets
 * Stack Functions and time complexity
 * Implementation
