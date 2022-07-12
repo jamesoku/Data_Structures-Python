@@ -41,7 +41,7 @@ It returns an empty frozenset if no arguments are supplied.
 
 ```python
     # The python file below cannot compile because the user is trying to change an item in a set
-    #
+    
 mylist = ['apple', 'banana', 'cherry']
 x = frozenset(mylist)
 x[1] = "strawberry" #Trying to change an item in a set
@@ -203,3 +203,83 @@ H
 {'r', 'W', 'o', 'd', 'e'}
 set()
 ```
+### Python Set Operations
+Mathematical set operations like union, intersection, difference, and symmetric difference can be performed on sets. With operators or methods, we can accomplish this.
+
+Union of A and B is a set of all elements from both sets.
+
+Union is performed using | operator. Same can be accomplished using the union() method.
+
+```python
+# Set union method
+# initialize A and B
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+# use | operator
+# Output: {1, 2, 3, 4, 5, 6, 7, 8}
+print(A | B)
+
+# use union function
+print(A.union(B))
+```
+
+Output
+```python
+{1, 2, 3, 4, 5, 6, 7, 8}
+{1, 2, 3, 4, 5, 6, 7, 8}
+```
+
+### Set Intersection
+Intersection of A and B is a set of elements that are common in both the sets.
+
+Intersection is performed using & operator. Same can be accomplished using the intersection() method.
+
+```python
+# Intersection of sets
+# initialize A and B
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+# use & operator
+# Output: {4, 5}
+print(A & B)
+
+# use intersection function on A
+print(A.intersection(B))
+```
+
+Output
+```python
+{4, 5}
+{4, 5}
+```
+
+### Set Difference
+A set of components that are exclusively in A but not in B make up the difference between the sets A and B (A - B). A group of items in B but not in A is known as B-A.
+
+The - operator is used to perform a difference. The difference() method can do the same.
+
+```python
+# Difference of two sets
+# initialize A and B
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+# use - operator on A
+# Output: {1, 2, 3}
+print(A - B)
+
+# use difference function on A
+print(A.difference(B))
+```
+Output
+```python
+{1, 2, 3}
+{1, 2, 3}
+```
+
+### Conclusion
+In this tutorial, you learned how to define set objects in Python, and you became familiar with the functions, operators, and methods that can be used to work with sets.
+
+You should now be comfortable with the basic built-in data types that Python provides.
