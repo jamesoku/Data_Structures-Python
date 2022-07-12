@@ -193,3 +193,5 @@ Empty:  True
 In general, if you're not using threading, you should use a deque. Unless you've analyzed your performance and determined that a slight increase in pushing and popping speed will make a significant enough impact to justify the maintenance risks, you should utilize a LifoQueue if you're using threading.
 
 list might be common, but it should be avoided because it might have problems with memory reallocation. The best option for your non-threaded Python stack is deque because their APIs are the same and deque doesn't have these problems.
+
+### 
