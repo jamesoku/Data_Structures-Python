@@ -6,14 +6,14 @@
 * Intro to Stacks(LIFO/FIFO)
 * Stack Functions and time complexity
 * Implementation
-* Conlclusion
+* Conclusion
 ## III. [Sets](2-Sets.md)
 * Intro to sets
 * Stack Functions and time complexity
 * Implementation
-* Conlclusion
-## IV. Trees
+* Conclusion
+## IV. Trees [Binary Search Tree](3-bst.md)
 * Intro to Trees
 * Traverse a Binary Tree in Python
 * Implement a Tree Using a Python Library
-* Conlclusion
+* Conclusion

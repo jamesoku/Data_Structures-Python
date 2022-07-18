@@ -4,6 +4,8 @@ is only removed from one end while a new element is put to the other end.
 
 ![img1](img1.jpg)
 
+
+
 ## Stack Functions and time complexity
 
 | Function      | Explanation                                       | Time complexity|
@@ -194,4 +196,35 @@ In general, if you're not using threading, you should use a deque. Unless you've
 
 list might be common, but it should be avoided because it might have problems with memory reallocation. The best option for your non-threaded Python stack is deque because their APIs are the same and deque doesn't have these problems.
 
-### 
+### Coding Problem
+ 
+Print the Next Greater Element (NGE) for each element in an array. The first greater element in the array on the right side of an element x is considered to be its next greater element. When there is no greater element for an element, the next greater element is treated as -1.
+
+
+Example:
+
+- The next bigger element in an array is always represented as -1 in the rightmost element.
+
+- Every element in a decreasingly sorted array has -1 as the next greater element.
+
+- The subsequent bigger items for each element in the input array [4, 5, 2, 25] are as follows.
+
+```
+Element       NGE
+   4      -->   5
+   5      -->   25
+   2      -->   25
+   25     -->   -1
+```
+- For the input array [13, 7, 6, 12}, the next greater elements for each element are as follows. 
+
+```
+Element        NGE
+   13      -->    -1
+   7       -->     12
+   6       -->     12
+   12      -->     -1
+```
+You can check your code with the solution here: [Solution](stack_solution.py)
+
+[Back to Welcome Page](outline.md)

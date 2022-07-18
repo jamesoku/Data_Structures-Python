@@ -9,27 +9,20 @@ The built-in set type in Python includes the following features:
 
 ![img1](sets1.jpg)
 
+## Hashing
+Hashing is a technique or process of mapping keys, and values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
+![hash](hashtable.png)
 ## Sets methods and time complexity
 
 | Function      | Explanation                                       | Time complexity|
 | ------------- | ------------------------------------------------- | -------------- |
 | add()       | Adds an element to the set   | O(1)           |
 | clear()        | Removes all the elements from the set | O(1)|
-| copy()     | Returns a copy of the set | O(1)|
-| difference()| Returns a set containing the difference between two or more sets|  O(1)     |
-| difference_update()|  Removes the items in this set that are also included in another, specified set |  O(1)     |
-| discard() | Remove the specified item |  O(1)     |
-| intersection() | Returns a set, that is the intersection of two other sets |  O(1)     |
-| intersection_update() | Removes the items in this set that are not present in other, specified set(s) |  O(1)     |
-| isdisjoint() | Returns whether two sets have a intersection or not |  O(1)     |
-| issubset() | Returns whether another set contains this set or not |  O(1)     |
-| issuperset() | Returns whether this set contains another set or not |  O(1)     |
+| copy()     | Returns a copy of the set | O(n)|
+| intersection() | Returns a set, that is the intersection of two other sets |  O(n)     |
 | pop() | Removes an element from the set |  O(1)     |
 | remove() | Removes the specified element |  O(1)     |
-| symmetric_difference() | Returns a set with the symmetric differences of two sets |  O(1)     |
-| symmetric_difference_update() | inserts the symmetric differences from this set and another |  O(1)     |
-| union() | Return a set containing the union of sets |  O(1)     |
-| update() | Update the set with the union of this set and others |  O(1)     |
+| union() | Return a set containing the union of sets |  O(n)     |
 
 ![img2](set-img2.png)
 
@@ -283,3 +276,43 @@ Output
 In this tutorial, you learned how to define set objects in Python, and you became familiar with the functions, operators, and methods that can be used to work with sets.
 
 You should now be comfortable with the basic built-in data types that Python provides.
+
+### Coding Problem
+Your goal is to write a program that will find and display all pairs of numbers in a list that sum up to 10. No duplicates should be displayed. This could be done in O(n^2) with a loop within a loop. However, using a set, this can be done in O(n) time. You should assume that the list of numbers provided has no duplicates.
+
+```python
+def display_sums(numbers):
+    """
+    Display pairs of numbers (no duplicates should be displayed) that sum to 
+    10 using a set in O(n) time.  We are assuming that there are no duplicates 
+    in the list.
+    """
+    pass
+
+display_sums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])  
+"""
+Should show something like (order does not matter):
+6 4
+7 3
+8 2
+9 1 
+"""
+print("===========")
+display_sums([-20, -15, -10, -5, 0, 5, 10, 15, 20]) 
+"""
+Should show something like (order does not matter):
+10 0
+15 -5
+20 -10
+"""
+print("===========")
+display_sums([5, 11, 2, -4, 6, 8, -1])
+"""
+Should show something like (order does not matter):
+8 2
+-1 11
+"""
+```
+- You can check your code with the solution here: [Solution](set_solution.py)
+
+[Back to Welcome Page](outline.md)
