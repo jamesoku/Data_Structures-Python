@@ -198,6 +198,8 @@ set()
 ### Python Set Operations
 Mathematical set operations like union, intersection, difference, and symmetric difference can be performed on sets. With operators or methods, we can accomplish this.
 
+![](set-pic.png)
+
 Union of A and B is a set of all elements from both sets.
 
 Union is performed using | operator. Same can be accomplished using the union() method.
