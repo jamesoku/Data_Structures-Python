@@ -11,6 +11,7 @@ The built-in set type in Python includes the following features:
 
 ## Hashing
 Hashing is a technique or process of mapping keys, and values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
+
 ![hash](hashtable.png)
 ## Sets methods and time complexity
 
@@ -24,7 +25,6 @@ Hashing is a technique or process of mapping keys, and values into the hash tabl
 | remove() | Removes the specified element |  O(1)     |
 | union() | Return a set containing the union of sets |  O(n)     |
 
-![img2](set-img2.png)
 
 ## Implementation
 ### Frozen Sets
