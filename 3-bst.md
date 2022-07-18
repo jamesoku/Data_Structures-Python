@@ -339,4 +339,4 @@ __Note:__ The generated output contains the inorder traversal of the modified tr
 
 - You can check your code with the solution here: [Solution](bst_solution.py)
 
-[Back to Welcome Page](outline.md)
+[Back to Welcome Page](0-Welcome.md)

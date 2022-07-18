@@ -227,4 +227,4 @@ Element        NGE
 ```
 You can check your code with the solution here: [Solution](stack_solution.py)
 
-[Back to Welcome Page](outline.md)
+[Back to Welcome Page](0-Welcome.md)
