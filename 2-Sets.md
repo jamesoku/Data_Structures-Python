@@ -7,7 +7,6 @@ The built-in set type in Python includes the following features:
 * Set components are special. Elements cannot have duplicates.
 * Although the elements that make up a set may be changed, the set itself must be immutable.
 
-![img1](sets1.jpg)
 
 ## Hashing
 Hashing is a technique or process of mapping keys, and values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
@@ -202,6 +201,7 @@ Mathematical set operations like union, intersection, difference, and symmetric 
 Union of A and B is a set of all elements from both sets.
 
 Union is performed using | operator. Same can be accomplished using the union() method.
+![](set.png)
 
 ```python
 # Set union method
